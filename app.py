@@ -65,5 +65,5 @@ if st.button('Predict'):
       print("Connection test failed.")
 
 
-st.text('Cloud Computing Project of Group-1 D12C')
-st.text('Members : Shubham, Muskan, Mansi & Khushi')
+st.text('Cloud Computing Project D12B')
+st.text('Members : Jayesh, Harsha and Vidhi')
