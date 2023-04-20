@@ -39,11 +39,11 @@ if st.button('Predict'):
   from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient
 
 # Create a BlobServiceClient object using the connection string
-  connection_string = "DefaultEndpointsProtocol=https;AccountName=imgclass;AccountKey=2KjJktKesG01ula/N7tVrNcJajJPhrMSoS04KTiTmjjJCh4fQkhascLpiDxX1AsvGItvrN1ESutt+ASta+kJAw==;EndpointSuffix=core.windows.net"
+  connection_string = "DefaultEndpointsProtocol=https;AccountName=jayeshimgstorage;AccountKey=VeyGnfT3RdoznFmjznIpmdmX0YKZWmXzoacWNa95JkQ5u8tOtxLm1G+xzdqJq1I/XyTCV1Ycj7aK+AStd745RQ==;EndpointSuffix=core.windows.net"
   blob_service_client = BlobServiceClient.from_connection_string(connection_string)
 
 # Create a container client for your new container
-  container_name = "imagestorage"
+  container_name = "jayeshimgblob"
   container_client = blob_service_client.get_container_client(container_name)
 
 # Upload a file to the container
